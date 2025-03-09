@@ -28,7 +28,7 @@ const CryptoList = () => {
   }, []);
 
   if (loading) return <p className="loading">Загрузка...</p>;
-  if (error) return <p>{error}</p>;
+    if (error) return <p className="loading">Сервер не работает</p>;
 
   return (
     <div>
